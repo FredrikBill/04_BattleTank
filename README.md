@@ -7,3 +7,4 @@ Arena head-to-head tank game with simple AI, terrain and advanced control system
 # Lecture List
 Describes at what lecture the commit was taken.
 * BT01 Intro, Notes & Assets
+* BTO3 Setting up a GitHub "repo"
