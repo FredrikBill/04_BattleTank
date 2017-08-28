@@ -35,4 +35,11 @@ private:
 	UPROPERTY(EditAnywhere)
 		float CrossHairYLocation = 0.3333;
 	
+	//Returns a unit vector of where we are looking
+	bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
+
+	UPROPERTY(EditAnywhere)
+		float LineTraceRange = 1000000; //10km in cm
+
+	bool GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const;
 };
